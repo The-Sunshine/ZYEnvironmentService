@@ -14,7 +14,7 @@
 		220A73CB27731BA600CB9D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220A73CA27731BA600CB9D81 /* Assets.xcassets */; };
 		220A73CE27731BA600CB9D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220A73CC27731BA600CB9D81 /* LaunchScreen.storyboard */; };
 		220A73D127731BA600CB9D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A73D027731BA600CB9D81 /* main.m */; };
-		220A73DA27731BBF00CB9D81 /* ZYEnvironmentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A73D827731BBF00CB9D81 /* ZYEnvironmentService.m */; };
+		5A101985277E0D21007FFA28 /* ZYEnvironmentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A101983277E0D21007FFA28 /* ZYEnvironmentService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		220A73CD27731BA600CB9D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		220A73CF27731BA600CB9D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		220A73D027731BA600CB9D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		220A73D827731BBF00CB9D81 /* ZYEnvironmentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYEnvironmentService.m; sourceTree = "<group>"; };
-		220A73D927731BBF00CB9D81 /* ZYEnvironmentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYEnvironmentService.h; sourceTree = "<group>"; };
+		5A101983277E0D21007FFA28 /* ZYEnvironmentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYEnvironmentService.m; sourceTree = "<group>"; };
+		5A101984277E0D21007FFA28 /* ZYEnvironmentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYEnvironmentService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 				220A73C227731BA300CB9D81 /* SceneDelegate.m */,
 				220A73C427731BA300CB9D81 /* ViewController.h */,
 				220A73C527731BA300CB9D81 /* ViewController.m */,
-				220A73D727731BBF00CB9D81 /* ZYEnvironment */,
+				5A101982277E0D21007FFA28 /* ZYEnvironmentService */,
 				220A73C727731BA300CB9D81 /* Main.storyboard */,
 				220A73CA27731BA600CB9D81 /* Assets.xcassets */,
 				220A73CC27731BA600CB9D81 /* LaunchScreen.storyboard */,
@@ -80,13 +80,13 @@
 			path = ZYEnvironmentService;
 			sourceTree = "<group>";
 		};
-		220A73D727731BBF00CB9D81 /* ZYEnvironment */ = {
+		5A101982277E0D21007FFA28 /* ZYEnvironmentService */ = {
 			isa = PBXGroup;
 			children = (
-				220A73D927731BBF00CB9D81 /* ZYEnvironmentService.h */,
-				220A73D827731BBF00CB9D81 /* ZYEnvironmentService.m */,
+				5A101984277E0D21007FFA28 /* ZYEnvironmentService.h */,
+				5A101983277E0D21007FFA28 /* ZYEnvironmentService.m */,
 			);
-			path = ZYEnvironment;
+			path = ZYEnvironmentService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +162,7 @@
 				220A73C627731BA300CB9D81 /* ViewController.m in Sources */,
 				220A73C027731BA300CB9D81 /* AppDelegate.m in Sources */,
 				220A73D127731BA600CB9D81 /* main.m in Sources */,
-				220A73DA27731BBF00CB9D81 /* ZYEnvironmentService.m in Sources */,
+				5A101985277E0D21007FFA28 /* ZYEnvironmentService.m in Sources */,
 				220A73C327731BA300CB9D81 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,13 +17,13 @@
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
     
-    [ZYEnvironmentService prepareEnvironmentLocalURLStringArray:@[@"http://baidu.com",
-                                                                  @"http://souhu.com",
-                                                                  @"http://asdasdasdasd.com",
-                                                                  @"http://souhu.com"]];
+    [ZYEnvironmentService prepareEnvironmentLocalDevelopURLString:@"http://baidu.com"
+                                                    testURLString:@"http://baidu.com"
+                                          prepareReleaseURLString:@"http://baidu.com"
+                                                 releaseURLString:@"http://baidu.com"];
     [ZYEnvironmentService addOtherServiceDisplayStringArray:@[@"文件服务器http://souhu.com"]];
-    NSLog(@"%@",[ZYEnvironmentService localEnvironmentURLString]);
-    
+    NSLog(@"%ld",[ZYEnvironmentService currentEnvironment]);
+    NSLog(@"%@",[ZYEnvironmentService currentEnvironmentURLString]);
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
