@@ -18,9 +18,10 @@
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
     
     [ZYEnvironmentService prepareEnvironmentLocalDevelopURLString:@"http://baidu.com"
-                                                    testURLString:@"http://baidu.com"
-                                          prepareReleaseURLString:@"http://baidu.com"
-                                                 releaseURLString:@"http://baidu.com"];
+                                                    testURLString:@"http://test.com"
+                                          prepareReleaseURLString:@"http://prepare.com"
+                                                 releaseURLString:@"http://release.com"];
+
     [ZYEnvironmentService addOtherServiceDisplayStringArray:@[@"文件服务器http://souhu.com"]];
     NSLog(@"%ld",[ZYEnvironmentService currentEnvironment]);
     NSLog(@"%@",[ZYEnvironmentService currentEnvironmentURLString]);
